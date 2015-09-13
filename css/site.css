@@ -1,0 +1,82 @@
+body {
+     padding-top: 70px;
+}
+
+#navigation-top {
+    position: fixed;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navigation-button {
+    width: 20%;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.navigation-button:hover {
+    background-color: crimson;
+    color: white !important;
+}
+
+
+.navigation-container {
+    display: inline-block;
+    width: 100%;
+}
+
+.content {
+    display: block;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.post-container {
+    display: table;
+    width: 100%;
+}
+
+.post {
+    display: table-cell;
+
+}
+
+.post-content {
+    background-color: whitesmoke;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.img {
+    padding-left: 5px;
+    padding-right: 5px;
+    height: auto;
+    max-width: 100%;
+}
+
+.post-header {
+    padding-top: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+    word-break: break-all;
+}
+
+.post-text {
+    padding-left: 15px;
+    padding-right: 15px
+    word-break: break-all;
+}
+.button-wrapper {
+    padding:15px;
+}
+.btn-readmore {
+    border-radius: 0;
+    border: 3px solid silver;
+    background-image: none;
+    background-color: white;
+    font-weight: bold;
+    color: silver;
+}
